@@ -41,6 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
+				AdditionalIncludeDirectories="../include"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -171,11 +172,23 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..\src\doc_tools.c"
+				RelativePath="..\src\doc_common.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\src\main.c"
+				RelativePath="..\src\doc_config_manager.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\src\doc_manager.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\src\doc_manager_producer.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\src\main.cpp"
 				>
 			</File>
 		</Filter>
@@ -184,6 +197,26 @@
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
+			<File
+				RelativePath="..\include\doc_common.h"
+				>
+			</File>
+			<File
+				RelativePath="..\include\doc_config_manager.h"
+				>
+			</File>
+			<File
+				RelativePath="..\include\doc_exception.h"
+				>
+			</File>
+			<File
+				RelativePath="..\include\doc_manager.h"
+				>
+			</File>
+			<File
+				RelativePath="..\include\doc_manager_producer.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="资源文件"
